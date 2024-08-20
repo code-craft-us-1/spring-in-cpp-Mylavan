@@ -23,5 +23,6 @@ using namespace std;
     a.average = sum / vec.size();
     a.max = max;
     a.min = min;
+  std::cout<<(a.average)<<std::endl;
     return a;
 }
